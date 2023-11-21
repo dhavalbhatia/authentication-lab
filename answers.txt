@@ -1,0 +1,18 @@
+Q1. Django uses a user authentication system/Basic Authentication. It handles both authentication and authorization.
+    Authentication determines who an authorized user is.
+    Authorization is what an authenticated user can do.
+
+Q2. -a and -auth uses HTTP Basic authentication. It uses user credentials to authenticate user
+
+Q3. Session based authentication stores user credentials/authentication details. In token based authentication
+    the client stores them. 
+
+    Token auth is better than basic because creating tokens is more convenient and easier than having to
+    change user's account details. And if it is compromised, only the API's are exposed and not user's
+    master account.
+
+Q4. When you login with google. You are redirected to google's endpoint to verify your account ther.
+    Once successfully verified, google sends an authorization token back to bitbucket.
+    Bitbucket can then use this authorization token to identify it to your google account
+
+Q5. https://github.com/dhavalbhatia/authentication-lab
